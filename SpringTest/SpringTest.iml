@@ -32,5 +32,6 @@
         <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" type="SOURCES" />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="servlet-api" level="project" />
   </component>
 </module>
