@@ -15,6 +15,6 @@ public class HelloWorldController {
     public String HelloWorld(Model model){
         logger.info("helloworld被调用");
         model.addAttribute("message","Hello World!");
-        return "helloWorld";
+        return "HelloWorld";
     }
 }

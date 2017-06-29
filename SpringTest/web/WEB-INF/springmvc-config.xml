@@ -16,12 +16,11 @@
     <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <!-- 前缀 -->
         <property name="prefix">
-            <value>/WEB_INF/content/</value>
+            <value>/WEB-INF/content/</value>
         </property>
         <!-- 后缀 -->
         <property name="suffix">
             <value>.jsp</value>
         </property>
     </bean>
-    <context:component-scan base-package="org.fkit.controller"/>
 </beans>
