@@ -11,21 +11,20 @@
     <title>Title</title>
 </head>
 <body>
-<from action="register" method="post">
+<form action="login" method="post">
     <table>
         <tr>
             <td><label>登录名：</label></td>
-            <td><input tupe="text" id="loginname" name="loginname"></td>
+            <td><input type="text" id="loginname" name="loginname"></td>
         </tr>
         <tr>
             <td><label>密码：</label></td>
-            <td><input tupe="text" id="password" name="password"></td>
+            <td><input type="text" id="password" name="password"></td>
         </tr>
         <tr>
-            <td><input tupe="submit" id="submit">登录</td>
+            <td><input type="submit" id="submit" value="登录"></td>
         </tr>
     </table>
-
-</from>
+</form>
 </body>
 </html>

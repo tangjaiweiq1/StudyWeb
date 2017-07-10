@@ -12,25 +12,25 @@
 </head>
 <body>
     <h3>注册页面</h3><br>
-    <from action="register" method="post">
+    <form action="register" method="post">
         <table>
             <tr>
                 <td><label>登录名：</label></td>
-                <td><input tupe="text" id="loginname" name="loginname"></td>
+                <td><input type="text" id="loginname" name="loginname"></td>
             </tr>
             <tr>
                 <td><label>密码：</label></td>
-                <td><input tupe="text" id="password" name="password"></td>
+                <td><input type="text" id="password" name="password"></td>
             </tr>
             <tr>
                 <td><label>真实姓名：</label></td>
-                <td><input tupe="text" id="username" name="username"></td>
+                <td><input type="text" id="username" name="username"></td>
             </tr>
             <tr>
-                <td><input tupe="submit" id="submit">注册</td>
+                <td><input type="submit" id="submit" value="注册"></td>
             </tr>
         </table>
 
-    </from>
+    </form>
 </body>
 </html>

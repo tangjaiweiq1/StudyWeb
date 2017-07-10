@@ -4,6 +4,6 @@
     <title>welcome</title>
 </head>
 <body>
-    ${requestScope.message}
+    欢迎${requestScope.user.username}登录
 </body>
 </html>

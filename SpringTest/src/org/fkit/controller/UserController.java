@@ -34,11 +34,11 @@ public class UserController {
     public String registerFrom(){
         logger.info("register的Get被调用");
         // 跳转注册页面
-        return "registerFrom";
+        return "registerForm";
     }
 
     // 支持Post请求
-    @RequestMapping(value="/register", method = RequestMethod.POST)
+    @RequestMapping(value="/register",method = RequestMethod.POST)
     public String register(@RequestParam("loginname") String loginname,
                            @RequestParam("password") String password,
                            @RequestParam("username") String username){
@@ -51,7 +51,7 @@ public class UserController {
         userlist.add(user);
         return "loginFrom";
     }
-
+    @RequestMapping(value="/login")
     public String login(@RequestParam("loginname") String loginname,
                         @RequestParam("password") String password,
                         Model model){
