@@ -4,6 +4,7 @@
     <title>welcome</title>
 </head>
 <body>
-    欢迎${requestScope.user.username}登录
+    欢迎${requestScope.user.username}登录<br>
+    欢迎来自Session的${sessionScope.user.username}登录<br>
 </body>
 </html>
